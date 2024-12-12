@@ -1,4 +1,4 @@
-# D-FLIPDLOP-NEGEDGE
+
 
 **AIM:**
 
@@ -27,18 +27,41 @@ Therefore, D flip-flop always Hold the information, which is available on data i
 Next state of D flip-flop is always equal to data input, D for every positive transition of the clock signal. Hence, D flip-flops can be used in registers, shift registers and some of the counters.
 
 **Procedure**
-
-/* write all the steps invloved */
+1. Type the program in Quartus software.
+2. Compile and run the program.
+3. Generate the RTL schematic and save the logic diagram.
+4. Create nodes for inputs and outputs to generate the timing diagram.
+5. For different input combinations generate the timing diagram.
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by: SANJAY KUMAR.B
+RegisterNumber: 24000581
 */
+```
+module exp8(D,clk,Q,Qbar);
+input D,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=D;
+Qbar=~D;
+end
+endmodule
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![Screenshot 2024-12-04 001835](https://github.com/user-attachments/assets/6d3a16db-7188-47a6-bee4-3333306831d3)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![Screenshot 2024-12-04 002045](https://github.com/user-attachments/assets/504b1a30-a80a-4239-b2d8-6a7a83f93093)
 
 **RESULTS**
+ D flipflop using verilog and validating their functionality using their functional tables are verified.
+](https://github.com/sanjaysec24/JKFLIPFLOP-USING-IF-ELSE)](https://github.com/sanjaysec24/JKFLIPFLOP-USING-IF-ELSE)](https://github.com/sanjaysec24/JKFLIPFLOP-USING-IF-ELSE)
