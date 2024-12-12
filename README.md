@@ -64,4 +64,3 @@ endmodule
 
 **RESULTS**
  D flipflop using verilog and validating their functionality using their functional tables are verified.
-](https://github.com/sanjaysec24/JKFLIPFLOP-USING-IF-ELSE)](https://github.com/sanjaysec24/JKFLIPFLOP-USING-IF-ELSE)](https://github.com/sanjaysec24/JKFLIPFLOP-USING-IF-ELSE)
